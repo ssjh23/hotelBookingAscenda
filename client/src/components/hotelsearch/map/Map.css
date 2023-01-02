@@ -1,0 +1,10 @@
+.map-container {
+    height: 400px;
+    width: 700px;
+  }
+  
+.sidebar {
+  font-size: medium;
+  font-weight: 400;
+  margin-top: 20px;
+}

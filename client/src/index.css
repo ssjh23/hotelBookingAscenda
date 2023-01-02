@@ -1,0 +1,26 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    width: 1400px;
+    height: 1000px;
+    background-image: url('./tim-swaan-nature.jpg');
+    background-size: 1400px 1000px;
+}
+
+.app-header {
+    display: flex;
+    justify-content: center;
+}
+
+#logo {
+    align-items: stretch;
+    width: 1300px;
+    justify-content: center;
+    text-align: center;
+    background-color: #758ECD;
+    color: white;
+    padding: 30px;
+    cursor: pointer;
+    font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  }

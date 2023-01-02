@@ -1,0 +1,28 @@
+.roomguestcount{
+    font-size: 20px;
+    text-align: center;
+    display:flex;
+    position:relative;
+    justify-content: space-between;
+    min-width: 400px;
+}
+
+.Rooms{
+    position:absolute;
+    top:-180px;
+    left:80px;
+}
+
+.Adults{
+    position: absolute;
+    top:-180px;
+    right: 170px;
+    
+}
+
+.Children{
+    position: absolute;
+    top:-180px;
+    right: 20px;
+}
+

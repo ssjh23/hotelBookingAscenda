@@ -1,0 +1,68 @@
+.imageSliderBackground {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 1;
+    background-color: antiquewhite;
+    font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+    font-size: larger;
+    border-radius: 20px;
+    border: solid #7189ff;
+    border-width: 5px;
+    height: 400px;
+    margin-bottom: 20px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.imageSlider {
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.roomImage {
+    display: flex;
+    height: 300px;
+    width: 500px;
+    border-radius: 10px;
+    object-fit: cover;
+    flex: 0 1 auto;
+    align-items: flex-start;
+    margin-top: 40px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.rightArrow { 
+    position: absolute;
+    top: 50%;
+    font-size: 3rem;
+    color: white;
+    z-index: 10;
+    cursor: pointer; 
+    user-select: none;
+    margin-left: 450px;
+}
+
+.leftArrow { 
+    position: absolute;
+    top: 50%;
+    font-size: 3rem;
+    color: white;
+    z-index: 10;
+    cursor: pointer; 
+    user-select: none;
+}
+
+.slide {
+    opacity: 0;
+    transition-duration: 1s ease;
+}
+
+.slide.active {
+    opacity: 1;
+    transition-duration: 1s;
+    transform: scale(1.08);
+}

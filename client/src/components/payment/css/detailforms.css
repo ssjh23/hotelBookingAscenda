@@ -1,0 +1,83 @@
+
+.main-container {
+    font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;   
+}
+
+.subcontainer {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    box-shadow: rgba(21, 22, 22, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.form-container {
+    flex-shrink: inherit;
+    flex-direction: column;
+    justify-items: flex-end;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.text-container {
+    text-align: center;
+    min-width: 700px;
+}
+
+.form-1 {
+    margin-left: 50px;
+}
+
+.requests {
+    width: 90%;
+    border: none;
+    padding: 10px;
+    border-radius: 3px;
+    border: 2px solid #DADDEC;
+    margin: 5px 0 10px;
+    margin-left: -5px;
+    font-size: 1rem;
+    color: #656880;
+}
+
+.confirm-button {
+background:  #405cf5;
+border: 1px solid #405cf5;
+margin-left: -5px;
+width: 94%;
+border-radius: 6px;
+box-sizing: border-box;
+color: #FFFFFF;
+cursor: pointer;
+display: inline-block;
+font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+font-size: 16px;
+font-weight: 800;
+line-height: 16px;
+min-height: 40px;
+outline: 0;
+padding: 12px 12px;
+text-align: center;
+text-rendering: geometricprecision;
+text-transform: none;
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+vertical-align: middle;
+box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.confirm-button:hover,
+.confirm-button:active {
+background-color: initial;
+background-position: 0 0;
+color: #405cf5;
+}
+
+.confirm-button:active {
+opacity: .5;
+}

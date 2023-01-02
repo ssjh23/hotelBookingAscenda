@@ -1,0 +1,38 @@
+.dateManager {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.flexbox-date1{
+    display: flex;
+    justify-content: center;
+}
+
+.react-datepicker-wrapper {
+    width: 90%;
+    height: 20%;
+    border: none;
+    padding: 12px;
+    border-radius: 3px;
+    border: 2px solid #DADDEC;
+    margin: 0px -5px 0px -5px;
+    font-size: 1rem;
+    color: #656880;
+}
+
+.date-1-header {
+    position: absolute;
+    top: -50px;
+}
+
+.flexbox-date2{
+    display: flex;
+    justify-content: center;
+}
+
+.date-2-header {
+    position: absolute;
+    top: -50px;
+}
+

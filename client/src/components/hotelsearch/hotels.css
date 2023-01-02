@@ -1,0 +1,118 @@
+.containerBackground {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: antiquewhite;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: larger;
+}
+
+.listingDetails {
+  display: flex;
+  flex: 0 0 auto;
+  margin: 10px;
+  padding: 20px;
+  background: #a0ddff;
+  border-radius: 20px;
+  border: solid #7189ff;
+  border-width: 5px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.listingImage {
+  flex: 0 0  auto;
+  height: 200px;
+  align-items: flex-start;
+}
+
+.listingForm {
+  font-size: large;
+  text-align: end;
+  flex: 1 0 auto;
+}
+
+.selectListing {
+background: #405cf5;
+border: 1px solid #405cf5;
+border-radius: 6px;
+box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+box-sizing: border-box;
+color: #FFFFFF;
+cursor: pointer;
+display: inline-block;
+font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+font-size: 16px;
+font-weight: 800;
+line-height: 16px;
+min-height: 40px;
+outline: 0;
+padding: 12px 14px;
+text-align: center;
+text-rendering: geometricprecision;
+text-transform: none;
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+vertical-align: middle;
+}
+
+.selectListing:hover,
+.selectListing:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #405cf5;
+}
+
+.selectListing:active {
+  opacity: .5;
+}
+  
+.error {
+  background-color: white;
+}
+
+#bookRoom { 
+  margin-top: 30px;
+  background: #405cf5;
+  border: 1px solid #405cf5;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+#bookRoom:hover,
+#bookRoom:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #405cf5;
+}
+
+#bookRoom:active {
+  opacity: .5;
+}
+
+#linkToHome {
+  text-decoration: none;
+}
+
+#amenitiesRatings {
+  font-size: large;
+  font-weight: 600;
+}
+
